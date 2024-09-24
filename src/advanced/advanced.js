@@ -70,19 +70,9 @@ const requestPOST = {
 // - headers: an object with the headers in the request
 // - body: the body in the request
 // - query: an object with the query parameters in the request
-function parseRequest(req) {
-  const request = {
-    method: '',
-    path: '',
-    headers: {},
-    body: null,
-    query: null
-  }
+function parseRequest(req) {}
 
-  // call the other functions below as needed
-
-  return request
-}
+// console.log(parseRequest(rawGETRequest))
 
 // 2. Create a function named parseHeader that accepts two parameters:
 // - a string for one header, and an object of current headers that must be augmented with the parsed header
